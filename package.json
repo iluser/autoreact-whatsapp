@@ -1,0 +1,26 @@
+{
+    "name": "autoreact-whatsapp",
+    "version": "1.0.0",
+    "description": "auto view WhatsApp story using Bailyes package",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "ilwan",
+    "license": "MIT",
+    "dependencies": {
+      "@hapi/boom": "^10.0.0",
+      "@whiskeysockets/baileys": "^6.7.9",
+      "chalk": "^4.1.2",
+      "figlet": "^1.5.2",
+      "pino": "^7.0.5",
+      "qrcode-terminal": "^0.12.0",
+      "util": "^0.12.4"
+    },
+    "directories": {
+      "lib": "lib",
+      "src": "src"
+    }
+  }
+  
