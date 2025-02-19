@@ -1,5 +1,5 @@
 const sessionName = "sesi";
-const owner = ["628XXX"]; // Place using your phone number with coutry code
+// const owner = ["628XXX"]; // Place using your phone number with coutry code
 
 const {
     default: ChatbotConnect,
@@ -138,8 +138,8 @@ async function Bot_Starting() {
                 Bot_Starting();
             }
         } else if (connection === "open") {
-            console.log(color("Bot success conneted to server", "green"));
-            client.sendMessage(owner + "@s.whatsapp.net", { text: `System has been started` });
+            console.log(color("System has been started!", "green"));
+            // client.sendMessage(owner + "@s.whatsapp.net", { text: `System has been started` });
         }
         // console.log('Connected...', update)
     });
